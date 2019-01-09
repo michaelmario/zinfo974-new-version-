@@ -1,0 +1,213 @@
+body{
+    margin:0;
+    padding:0;
+    left:0;
+    right:0;
+    bottom:0;
+    font-size:14;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.container{
+  width:100%;
+  height:900px;
+ 
+}
+.main_nav{
+    background-color:red;
+    height:120px;
+}
+.conten_carousel{
+    width:100%;
+    height:450px;
+    background-color: aliceblue;
+     display:flex;
+     flex-direction:row;
+     flex-wrap:wrap;
+     justify-content:center ;
+   
+}
+.carousel{
+      width:350px;
+        height: 200px;
+        margin: 10px;
+        /* background-color: brown; */
+        
+       
+}
+ .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9,.slide10,.slide11,.slide12,.slide13,.slide14,.slide15 {
+   position:absolute;
+    width:26%;
+    height:31%;   
+   
+     
+  }
+  .slide1 {
+    background: url(https://www.zinfos974.com/photo/art/grande/29571551-28559593.jpg?v=154700594)no-repeat center;
+        background-size: cover;
+      animation:fade 15s infinite;
+  -webkit-animation:fade 15s infinite;
+  
+  } 
+ 
+  .slide2 {
+    background: url(https://www.zinfos974.com/photo/art/large_x2_16_9/29548343-28548914.jpg?v=1546949443)no-repeat center;
+        background-size: cover;
+      animation:fade2 15s infinite;
+  -webkit-animation:fade2 15s infinite;
+  }
+  .slide3 {
+      background: url(https://www.zinfos974.com/photo/art/large_x2_16_9/29541622-28539666.jpg?v=1546929681)no-repeat center;
+        background-size: cover;
+      animation:fade3 15s infinite;
+  -webkit-animation:fade3 15s infinite;
+  
+  }
+  .slide4 {
+    background: url(https://www.zinfos974.com/photo/art/grande/29539488-28538891.jpg?v=1546921370)no-repeat center;
+        background-size: cover;
+      animation:fade 8s infinite;
+  -webkit-animation:fade 8s infinite;
+  
+  } 
+ 
+  .slide5 {
+    background: url(https://www.zinfos974.com/photo/art/large_x2_16_9/29538912-28538718.jpg?v=1546928996)no-repeat center;
+        background-size: cover;
+      animation:fade2 8s infinite;
+  -webkit-animation:fade2 8s infinite;
+
+  }
+  .slide6 {
+      background: url(https://www.zinfos974.com/photo/art/large_x2_16_9/29515675-28528734.jpg?v=1546863021)no-repeat center;
+        background-size: cover;
+      animation:fade3 8s infinite;
+  -webkit-animation:fade3 8s infinite;
+  
+  
+  }
+  .slide7 {
+    background: url(https://www.zinfos974.com/photo/art/large_x2_16_9/29322684-28440963.jpg?v=1546144798)no-repeat center;
+        background-size: cover;
+      animation:fade 8s infinite;
+  -webkit-animation:fade 8s infinite;
+  
+  } 
+ 
+  .slide8 {
+    background: url(https://www.zinfos974.com/photo/art/large_x2_16_9/29290620-28428522.jpg?v=1546011330)no-repeat center;
+        background-size: cover;
+      animation:fade2 8s infinite;
+  -webkit-animation:fade2 8s infinite;
+  }
+  .slide9 {
+      background: url(https://www.zinfos974.com/photo/art/large_x2_16_9/29282890-28423822.jpg?v=1545983472)no-repeat center;
+        background-size: cover;
+      animation:fade3 8s infinite;
+  -webkit-animation:fade3 8s infinite;
+ 
+  
+  }
+  .slide10 {
+    background: url(https://www.zinfos974.com/photo/art/grande/29226377-28394767.jpg?v=1545815649)no-repeat center;
+        background-size: cover;
+      animation:fade 8s infinite;
+  -webkit-animation:fade 8s infinite;
+
+  } 
+ 
+  .slide11 {
+    background: url(https://www.zinfos974.com/photo/art/large_x2_16_9/29409991-28479703.jpg?v=1546497763)no-repeat center;
+        background-size: cover;
+      animation:fade2 8s infinite;
+  -webkit-animation:fade2 8s infinite;
+ 
+  }
+  .slide12 {
+      background: url(https://www.zinfos974.com/photo/art/large_x2_16_9/29304488-28433850.jpg?v=1546067129)no-repeat center;
+        background-size: cover;
+      animation:fade3 8s infinite;
+  -webkit-animation:fade3 8s infinite;
+ 
+  }
+  .slide13 {
+    background: url(https://www.zinfos974.com/photo/art/large_x2_16_9/29442255-28495839.jpg?v=1546600945)no-repeat center;
+        background-size: cover;
+      animation:fade 8s infinite;
+  -webkit-animation:fade 8s infinite;
+  
+  } 
+ 
+  .slide14 {
+    background: url(https://www.zinfos974.com/photo/art/large_x2_16_9/29454772-28501370.jpg?v=154663080)no-repeat center;
+        background-size: cover;
+      animation:fade2 8s infinite;
+  -webkit-animation:fade2 8s infinite;
+  }
+ 
+  .slide15 {
+      background: url(https://www.zinfos974.com/photo/art/grande/26980055-27424369.jpg?v=1540671331)no-repeat center;
+        background-size: cover;
+      animation:fade3 8s infinite;
+  -webkit-animation:fade3 8s infinite;
+
+  }
+  @keyframes fade
+  {
+    0%   {opacity:1}
+    33.333% { opacity: 0}
+    66.666% { opacity: 0}
+    100% { opacity: 1}
+  }
+  @keyframes fade2
+  {
+    0%   {opacity:0}
+    33.333% { opacity: 1}
+    66.666% { opacity: 0 }
+    100% { opacity: 0}
+  }
+  @keyframes fade3
+  {
+    0%   {opacity:0}
+    33.333% { opacity: 0}
+    66.666% { opacity: 1}
+    100% { opacity: 0}
+  }
+  article{
+      width:80%;     
+      margin-left:10%;
+  }
+  article > p{
+      width:80%;
+     float:right;   
+  }
+  h1{
+      text-align:center;
+  }
+  .imgalaune{
+    width:150px;
+    height:150px;
+    float:left;
+    margin-right:10px;
+  }
+  @media only screen and (max-width: 768px) {
+    .conten_carousel{
+        flex-direction:column;
+        flex-wrap:nowrap;
+       
+    }
+    .carousel{
+         margin-bottom:186px;
+        
+    }
+    .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9,.slide10,.slide11,.slide12,.slide13,.slide14,.slide15 {
+        width:100%;
+    }
+    .main_nav{
+        margin-bottom:267px;
+      
+    }
+    .main_nav>img{
+        width:100%;
+    }
+    
+  }
